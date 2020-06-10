@@ -1,0 +1,362 @@
+:root
+{
+    --primery-text-color:#212121;
+    --accent-color:#757575;
+ }
+
+.body
+{
+   font-family: 'Roboto', sans-serif;
+   background-color: #FFFFFF;
+   font-size: 14px;
+   line-height: 1.14;
+   font-weight: 500;
+   letter-spacing: 0.03em;
+}
+
+/* Container */
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid tomato;
+
+}
+
+
+
+.list
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* logo*/
+.logo
+{
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.logo-web
+{
+   color: #2196F3;
+}
+
+/* headers navigation */
+
+
+.nav-link
+{
+    color: var(--primery-text-color);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.nav-link:hover,.nav-link:focus
+{
+    color:#2196F3;
+
+}
+
+/* headers contacts */
+.nav-contacts
+{
+    color: var(--accent-color);
+    text-decoration: none;
+    font-style: normal;
+}
+.nav-contacts:hover,.nav-contacts:focus
+{
+    color:#2196F3;
+}
+
+/* buttons */
+.button
+{
+    font-weight: 700;
+    line-height: 1.88;
+    display: inline-block;
+    min-width: 200px;
+    color: #FFFFFF;
+    background-color: #2196F3;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+.button:hover,.button:focus
+{
+    color:rgba(0, 0, 0, 0.15)
+}
+
+
+.button.primery
+{
+    padding: 10px 32px;
+}
+
+.button.secondary
+{
+    padding: 10px 28px;
+}
+
+
+/* main banner */
+
+.hero
+{
+    text-align: center;
+    outline: 2px solid tomato;
+}
+
+
+.hero-title
+{
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    background: #2196F3;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    
+  
+}
+
+
+
+
+
+
+
+/* advantages */
+.advantages-title
+{
+    margin: 0;
+    padding: 0;
+}
+
+.advantages-subtitle
+{
+    color: var(--primery-text-color);
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.advantages-disc
+{
+    color: var(--accent-color);
+    line-height: 1.7;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* our products */
+.products-title
+{
+    color: var(--primery-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin: 0;
+    padding: 0;
+}
+
+.products-subtitle
+{
+    color: #FFFFFF;
+    font-weight: 700;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px 82px;
+    margin: 0px;
+}
+
+
+
+
+/* team */
+
+.team
+{
+    background-color: #F5F4FA;
+}
+
+.team-title
+{
+    color: var(--primery-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.team-name
+{
+    color: var(--primery-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.profession
+{
+    color: var(--accent-color);
+    font-size: 16px;
+    line-height: 1.19;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+
+
+.team-soclink
+{
+    color: #AFB1B8;
+    text-decoration: none;
+}
+
+.team-soclink:hover,
+.team-soclink:focus
+{
+    color: #2196F3;
+}
+
+/* costumer */
+.costumer-title
+{
+    color: var(--primery-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin: 0px;
+    padding: 0px;
+}
+
+.costumer-subtitle
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* footer */
+.footer
+{
+     background-color: #2F303A;
+}
+
+.footer-logo
+{
+    color: #2196F3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-decoration: none;
+}
+.footer-logo-studio
+{
+    color: #FFFFFF;
+}
+
+.footer-address
+{
+    color: #FFFFFF;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+.footer-contacts
+{
+ line-height: 1.17;
+ color: rgba(255, 255, 255, 0.6);
+ font-style: normal;
+}
+.footer-contacts:hover
+{
+    color: #2196F3;
+}
+
+.footer-auth
+{
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+
+.footer-auth-link
+{
+    color: #FFFFFF;
+    list-style: none;
+}
+.footer-auth-link:hover
+{
+    color: #2196F3;
+}
+
+.footer-developer
+{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 12px;
+    line-height: 2;
+}
+
+            /* portfolio */
+
+
+/* portfolio main */
+
+/* portfolio projects */
+
+.portfolio-projects-list
+{
+    list-style: none;
+}
+
+.portfolio-projects-title
+{
+    color: var(--primery-text-color);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio-projects-subtitle
+{
+    color: var(--accent-color);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.portfolio-projects-disk
+{
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color:rgba(33, 150, 243, 0.9);
+    line-height: 1.6;
+    
+}
+
+.portfolio-projects-link
+{
+    text-decoration: none;
+}
