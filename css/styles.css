@@ -34,7 +34,7 @@ html {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    
 
 }
 
@@ -126,7 +126,7 @@ html {
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
-    outline: 2px solid tomato;
+    
 
 }
 
@@ -194,7 +194,6 @@ html {
 .hero
 {
     text-align: center;
-    outline: 2px solid tomato;
     margin-bottom: 94px;
 }
 
@@ -229,13 +228,16 @@ html {
 }
 
 .img-advantages
-{
+{   display: block;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 50px;
+    
 }
 
 .advantages-title
 {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     display: none;
 }
@@ -243,7 +245,7 @@ html {
 .advantages-list
 {
     display: flex;
-   
+
 }
 
 
@@ -445,7 +447,7 @@ margin-bottom: 94px;
     line-height: 1.17;
     margin-top: 0px;
     margin-right: 0px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-left: 0px;
     padding: 0px;
 }
@@ -457,21 +459,52 @@ margin-bottom: 94px;
     padding: 0px;
 }
 
+.costumer-img
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
 /* footer */
 .footer
 {
+    padding-top: 57px;
+    padding-bottom: 18px;
      background-color: #2F303A;
 }
 
+.footer-container
+{
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.footer-list:not(:last-child)
+{
+    margin-right: 69px;
+    margin-bottom: 20px;
+}
+
+.footer-join.footer-list
+{
+    margin-right: 94px;
+}
+
+
 .footer-logo
 {
+    display: block;
+    margin-bottom: 8px;
     color: #2196F3;
     font-family: 'Raleway', sans-serif;
     font-size: 22px;
     line-height: 1.2;
     font-weight: 700;
     text-decoration: none;
+    
 }
 .footer-logo-studio
 {
@@ -480,24 +513,38 @@ margin-bottom: 94px;
 
 .footer-address
 {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 9px;
     color: #FFFFFF;
     line-height: 1.7;
     font-style: normal;
 }
 
+
 .footer-contacts
 {
+    display: block;
+    
  line-height: 1.17;
  color: rgba(255, 255, 255, 0.6);
  font-style: normal;
 }
-.footer-contacts:hover
+
+.footer-contacts:not(:last-child)
+{
+    margin-bottom: 9px;
+}
+
+.footer-contacts:hover,.footer-contacts:active
 {
     color: #2196F3;
 }
 
 .footer-auth
 {
+    display: block;
+    margin-bottom: 20px;
     color: #FFFFFF;
     font-weight: 700;
 }
@@ -509,13 +556,16 @@ margin-bottom: 94px;
     color: #FFFFFF;
     list-style: none;
 }
-.footer-auth-link:hover
+.footer-auth-link:hover,.footer-auth-link:active
 {
     color: #2196F3;
 }
 
 .footer-developer
 {
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.4);
     font-size: 12px;
     line-height: 2;
@@ -524,18 +574,84 @@ margin-bottom: 94px;
 
             /* portfolio */
 
+.portfolio-header
+{
+    margin-bottom: 93px;
+}
+
 
 /* portfolio main */
 
+.portfolio-nav-list
+{
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+
+.portfolio-nav-link:not(:last-child)
+{
+    margin-right: 8px;
+   
+
+}
+
+
+
 /* portfolio projects */
+
+.portfolio-projects
+{
+    margin-bottom: 94px;
+}
+
+
+.portfolio-title
+{
+    display: none;
+}
+
 
 .portfolio-projects-list
 {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-.portfolio-projects-title
+.portfolio-projects-item
 {
+    width: calc((100% - 60px) / 3);
+    margin-bottom: 30px;
+}
+
+.portfolio-projects-item:not(:nth-child(3n+3))
+{
+    margin-right: 30px;
+}
+
+.portfolio-projects-item:nth-last-child(-n+3)
+{
+    margin-bottom: 0px;
+}
+
+
+
+.portfolio-projects-title
+{   text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    padding: 0px;
     color: var(--primery-text-color);
     font-size: 18px;
     font-weight: 700;
@@ -544,7 +660,9 @@ margin-bottom: 94px;
 }
 
 .portfolio-projects-subtitle
-{
+{  text-align: center;
+    margin: 0px;
+    padding: 0px;
     color: var(--accent-color);
     font-size: 16px;
     line-height: 1.9;
@@ -552,14 +670,33 @@ margin-bottom: 94px;
 
 .portfolio-projects-disk
 {
+    margin: 0px;
+    padding: 5px;
     color: #FFFFFF;
     font-size: 18px;
     background-color:rgba(33, 150, 243, 0.9);
     line-height: 1.6;
-    
 }
+
+
+
 
 .portfolio-projects-link
 {
     text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.portfolio-projects-img
+{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding: 0px;
+    list-style: none;
+   
 }
