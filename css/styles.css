@@ -430,7 +430,6 @@ margin-bottom: 94px;
 {
     width: calc((100% - 150px) / 6);
 }
-
 .customer-item:not(:last-child)
 {
     margin-right: 30px;
