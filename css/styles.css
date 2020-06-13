@@ -428,7 +428,7 @@ margin-bottom: 94px;
 
 .customer-item
 {
-    width: calc((100%-150px) / 6);
+    width: calc((100% - 150px) / 6);
 }
 
 .customer-item:not(:last-child)
