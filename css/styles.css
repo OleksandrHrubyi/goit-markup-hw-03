@@ -476,6 +476,7 @@ margin-bottom: 94px;
 .footer-container
 {
     display: flex;
+    margin-bottom: 18px;
     align-items: baseline;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -563,7 +564,7 @@ margin-bottom: 94px;
 .footer-developer
 {
     text-align: center;
-    margin-top: 18px;
+    margin-top: 0px;
     margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.4);
     font-size: 12px;
