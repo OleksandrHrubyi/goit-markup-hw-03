@@ -279,12 +279,12 @@ img
     padding-top: 94px;
 }
 
-.img-advantages
-{   display: block;
-    margin-right: auto;
-    margin-left: auto;
+.backgrd-icon-advant
+{   
+    padding: 25px 100px;
     margin-bottom: 50px;
     
+    background-color: #F5F4FA;
 }
 
 
@@ -393,7 +393,9 @@ margin-right: 30px;
 .team-list
 {
     display: flex;
+    justify-content: space-between;
 }
+
 
 .team-item
 {
@@ -428,6 +430,7 @@ margin-right: 30px;
 .team-card
 {
     padding: 30px 32px 24px;
+    background-color: #FFFFFF;
 
     
 }
@@ -453,18 +456,41 @@ margin-right: 30px;
     margin-bottom: 16px;
 }
 
-
-
-.team-soclink
+.team-icon-list
 {
-    color: #AFB1B8;
-    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
-.team-soclink:hover,
-.team-soclink:focus
+.team-icon-link
 {
-    color: #2196F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+}
+
+.team-icon-link:hover,
+.team-icon-link:focus
+{
+    background-color: #2196F3;
+}
+
+
+
+.team-icon
+{
+    fill: #AFB1B8;
+}
+
+.team-icon-link:hover .team-icon
+{
+    fill: #FFFFFF;
 }
 
 /* costumer */
@@ -762,3 +788,5 @@ margin-right: 30px;
     list-style: none;
    
 }
+
+
